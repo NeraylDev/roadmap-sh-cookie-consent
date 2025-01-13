@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    font-family: 'Teachers';
+}
+
+button {
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    border-radius: 0.375em;
+    background-color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+
+.pop-up {
+    width: 14em;
+    height: auto;
+    position: fixed;
+    right: 0.75em;
+    bottom: 0.75em;
+
+    padding: 1em;
+
+    border-radius: 0.75em;
+    color: white;
+    background-color: black;
+
+    i {
+        font-size: 350%;
+        margin-bottom: 0.375em;
+    }
+
+    p {
+        padding: 1em 0;
+    }
+}
+
+.pop-up p::selection {
+    color: black    ;
+    background-color: white;
+}
