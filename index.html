@@ -15,13 +15,18 @@
 
 <body>
 
+<section style="width: 20%; margin: 16em auto;">
+<button id="cookie-show-button" onclick="ShowCookie('username');">Show cookie</button>
+<button id="cookie-delete-button">Delete cookie</button>
+</section>
+
 <article id="cookie-consent-pop-up" class="pop-up">
 
 <i class="fa-solid fa-cookie-bite"></i>
 <button class="close-button" onclick="CloseWindow(document.getElementById('cookie-consent-pop-up'));"><i class="fa-solid fa-xmark"></i></button>
 
 <p>We use cookies to improve your user experience.</p>
-<button id="cookie-consent-button" type="button">I like Cookies</button>
+<button id="cookie-consent-button" class="confirm-button" type="button">I like Cookies</button>
 
 </article>
 
