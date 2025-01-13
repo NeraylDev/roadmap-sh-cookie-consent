@@ -18,6 +18,20 @@ button:hover {
     background-color: lightgray;
 }
 
+.close-button {
+    width: auto;
+    padding: 0;
+    color: white;
+    background: transparent;
+    float: right;
+}
+
+.close-button:hover {
+    color: lightgray;
+    background-color: transparent;
+}
+
+
 
 .pop-up {
     width: 14em;
@@ -35,6 +49,12 @@ button:hover {
     i {
         font-size: 350%;
         margin-bottom: 0.375em;
+    }
+
+    .fa-xmark {
+        font-size: 200%;
+        vertical-align: top;
+        float: right;
     }
 
     p {

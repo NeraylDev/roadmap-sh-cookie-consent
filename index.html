@@ -15,16 +15,18 @@
 
 <body>
 
-<article class="pop-up">
+<article id="cookie-consent-pop-up" class="pop-up">
 
 <i class="fa-solid fa-cookie-bite"></i>
+<button class="close-button" onclick="CloseWindow(document.getElementById('cookie-consent-pop-up'));"><i class="fa-solid fa-xmark"></i></button>
 
 <p>We use cookies to improve your user experience.</p>
-<button type="button">I like Cookies</button>
+<button id="cookie-consent-button" type="button">I like Cookies</button>
 
 </article>
 
 <script src="https://kit.fontawesome.com/c0fadb3bc4.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 
 </body>
 
