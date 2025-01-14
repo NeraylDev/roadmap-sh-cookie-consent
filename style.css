@@ -18,7 +18,7 @@ button {
 button:hover {
     cursor: pointer;
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .close-button {
